@@ -15,5 +15,35 @@ namespace DarooKhaneh
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ribbonPanel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void __Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnUser_ItemClick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ribbonControl1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnInfo_ItemClick(object sender, EventArgs e)
+        {
+            new frmInfo().ShowDialog();
+        }
     }
 }

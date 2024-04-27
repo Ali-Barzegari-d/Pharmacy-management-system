@@ -10,3 +10,17 @@ C:\Users\NoteBook\Desktop\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKha
 C:\Users\NoteBook\Desktop\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.csproj.CopyComplete
 C:\Users\NoteBook\Desktop\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.exe
 C:\Users\NoteBook\Desktop\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.pdb
+C:\Users\NoteBook\Desktop\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.frmInfo.resources
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\bin\Debug\DarooKhaneh.exe
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\bin\Debug\DarooKhaneh.pdb
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\bin\Debug\DevComponents.DotNetBar.Design.dll
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\bin\Debug\DevComponents.DotNetBar2.dll
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.csprojAssemblyReference.cache
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.Form1.resources
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.frmInfo.resources
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.Properties.Resources.resources
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.csproj.GenerateResource.cache
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.csproj.CoreCompileInputs.cache
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.csproj.CopyComplete
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.exe
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.pdb
