@@ -94,7 +94,7 @@ namespace DarooKhaneh
             this.office2007StartButton1,
             this.qatCustomizeItem1});
             this.ribbonControl1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.ribbonControl1.Size = new System.Drawing.Size(850, 165);
+            this.ribbonControl1.Size = new System.Drawing.Size(898, 165);
             this.ribbonControl1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.ribbonControl1.SystemText.MaximizeRibbonText = "&Maximize the Ribbon";
             this.ribbonControl1.SystemText.MinimizeRibbonText = "Mi&nimize the Ribbon";
@@ -127,7 +127,7 @@ namespace DarooKhaneh
             this.ribbonPanel1.Name = "ribbonPanel1";
             this.ribbonPanel1.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
             this.ribbonPanel1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.ribbonPanel1.Size = new System.Drawing.Size(850, 97);
+            this.ribbonPanel1.Size = new System.Drawing.Size(898, 97);
             // 
             // 
             // 
@@ -510,7 +510,7 @@ namespace DarooKhaneh
             this.groupPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupPanel1.Location = new System.Drawing.Point(0, 165);
             this.groupPanel1.Name = "groupPanel1";
-            this.groupPanel1.Size = new System.Drawing.Size(850, 405);
+            this.groupPanel1.Size = new System.Drawing.Size(898, 448);
             // 
             // 
             // 
@@ -550,7 +550,7 @@ namespace DarooKhaneh
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(844, 399);
+            this.pictureBox1.Size = new System.Drawing.Size(892, 442);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -560,7 +560,7 @@ namespace DarooKhaneh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(850, 570);
+            this.ClientSize = new System.Drawing.Size(898, 613);
             this.Controls.Add(this.groupPanel1);
             this.Controls.Add(this.ribbonControl1);
             this.Font = new System.Drawing.Font("B Nazanin", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));

@@ -33,7 +33,7 @@ namespace DarooKhaneh
 
         private void btnUser_ItemClick(object sender, EventArgs e)
         {
-
+            new frmUser().ShowDialog();
         }
 
         private void ribbonControl1_Click(object sender, EventArgs e)
