@@ -105,5 +105,11 @@ namespace DarooKhaneh
                 MessageBox.Show("مشکلی به وجود آمده است");
             }
         }
+
+        private void dgvUser_MouseUp(object sender, MouseEventArgs e)
+        {
+            txtUname.Text = dgvUser[1, dgvUser.CurrentRow.Index].Value.ToString();
+            txtPass.Text = dgvUser[2, dgvUser.CurrentRow.Index].Value.ToString();
+        }
     }
 }

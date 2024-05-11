@@ -25,3 +25,14 @@ E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.csproj.CopyComplete
 E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.exe
 E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.pdb
 E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.frmUser.resources
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.frmLogin.resources
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.frmGroup.resources
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.frmListGrooh.resources
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\bin\Debug\DarooKhaneh.exe.config
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\bin\Debug\Microsoft.SqlServer.ManagedConnections.dll
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\bin\Debug\Stimulsoft.Report.dll
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\bin\Debug\Stimulsoft.Base.dll
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\bin\Debug\Stimulsoft.Data.dll
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\bin\Debug\Stimulsoft.Report.Win.dll
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\bin\Debug\Stimulsoft.Controls.Win.dll
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\bin\Debug\Stimulsoft.Controls.dll

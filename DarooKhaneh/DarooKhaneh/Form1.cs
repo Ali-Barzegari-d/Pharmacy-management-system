@@ -38,12 +38,27 @@ namespace DarooKhaneh
 
         private void ribbonControl1_Click(object sender, EventArgs e)
         {
-
+            new frmListGrooh().ShowDialog();
         }
 
         private void btnInfo_ItemClick(object sender, EventArgs e)
         {
             new frmInfo().ShowDialog();
+        }
+
+        private void btnListGrooh_Click(object sender, EventArgs e)
+        {
+            new frmListGrooh().ShowDialog();
+        }
+
+        private void ribbonBar1_ItemClick(object sender, EventArgs e)
+        {
+            new frmListGrooh().ShowDialog();
+        }
+
+        private void btnGroup_Click(object sender, EventArgs e)
+        {
+            new frmGroup().ShowDialog();
         }
     }
 }

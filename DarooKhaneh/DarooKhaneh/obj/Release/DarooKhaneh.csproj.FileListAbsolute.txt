@@ -1,0 +1,10 @@
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Release\DarooKhaneh.csprojAssemblyReference.cache
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Release\DarooKhaneh.Form1.resources
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Release\DarooKhaneh.frmGroup.resources
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Release\DarooKhaneh.frmInfo.resources
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Release\DarooKhaneh.frmListGrooh.resources
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Release\DarooKhaneh.frmLogin.resources
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Release\DarooKhaneh.frmUser.resources
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Release\DarooKhaneh.Properties.Resources.resources
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Release\DarooKhaneh.csproj.GenerateResource.cache
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Release\DarooKhaneh.csproj.CoreCompileInputs.cache
