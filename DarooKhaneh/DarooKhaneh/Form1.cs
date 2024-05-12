@@ -60,5 +60,10 @@ namespace DarooKhaneh
         {
             new frmGroup().ShowDialog();
         }
+
+        private void btnCompany_Click(object sender, EventArgs e)
+        {
+            new frmCompany().ShowDialog();
+        }
     }
 }

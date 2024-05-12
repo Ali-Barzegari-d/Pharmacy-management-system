@@ -36,3 +36,4 @@ E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\bin\Debug\Stimulsoft.Data.dll
 E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\bin\Debug\Stimulsoft.Report.Win.dll
 E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\bin\Debug\Stimulsoft.Controls.Win.dll
 E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\bin\Debug\Stimulsoft.Controls.dll
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.frmCompany.resources
