@@ -28,8 +28,8 @@ namespace DarooKhaneh
         {
             SqlDataReader dr;
             cmd.Connection = con;
-            cmd.CommandText = "Select * from Info where id=@N";
-            cmd.Parameters.AddWithValue("@N", txtCode.Text);
+            cmd.CommandText = "Select * from Info where id=" + txtCode.Text;
+            //cmd.Parameters.AddWithValue("@N", txtCode.Text);
             con.Open();
             dr = cmd.ExecuteReader();
             if (dr.Read())
@@ -94,6 +94,11 @@ namespace DarooKhaneh
             cmd.ExecuteNonQuery();
             con.Close();
             MessageBox.Show("اطلاعات با موفقعبت ویرایش شد");
+        }
+
+        private void frmInfo_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -60,8 +60,8 @@ namespace DarooKhaneh
         {
             SqlDataReader dr;
             cmd.Connection = con;
-            cmd.CommandText = "Select * from Grooh where id=@N";
-            cmd.Parameters.AddWithValue("@N", txtCode.Text);
+            cmd.CommandText = "Select * from Grooh where id=" + txtCode.Text;
+            //cmd.Parameters.AddWithValue("@N", txtCode.Text);
             con.Open();
             dr = cmd.ExecuteReader();
             if (dr.Read())

@@ -38,7 +38,7 @@ namespace DarooKhaneh
 
         private void ribbonControl1_Click(object sender, EventArgs e)
         {
-            new frmListGrooh().ShowDialog();
+            
         }
 
         private void btnInfo_ItemClick(object sender, EventArgs e)
@@ -53,7 +53,7 @@ namespace DarooKhaneh
 
         private void ribbonBar1_ItemClick(object sender, EventArgs e)
         {
-            new frmListGrooh().ShowDialog();
+            
         }
 
         private void btnGroup_Click(object sender, EventArgs e)
@@ -61,9 +61,9 @@ namespace DarooKhaneh
             new frmGroup().ShowDialog();
         }
 
-        private void btnCompany_Click(object sender, EventArgs e)
+        private void btnDaroo_Click(object sender, EventArgs e)
         {
-            new frmCompany().ShowDialog();
+            new frmDaroo().ShowDialog();
         }
     }
 }

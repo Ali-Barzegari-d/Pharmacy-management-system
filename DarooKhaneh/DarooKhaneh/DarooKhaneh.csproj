@@ -78,11 +78,11 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmCompany.cs">
+    <Compile Include="frmDaroo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCompany.Designer.cs">
-      <DependentUpon>frmCompany.cs</DependentUpon>
+    <Compile Include="frmDaroo.Designer.cs">
+      <DependentUpon>frmDaroo.cs</DependentUpon>
     </Compile>
     <Compile Include="frmGroup.cs">
       <SubType>Form</SubType>
@@ -119,8 +119,8 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmCompany.resx">
-      <DependentUpon>frmCompany.cs</DependentUpon>
+    <EmbeddedResource Include="frmDaroo.resx">
+      <DependentUpon>frmDaroo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmGroup.resx">
       <DependentUpon>frmGroup.cs</DependentUpon>
