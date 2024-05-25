@@ -33,6 +33,14 @@ namespace DarooKhaneh
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.ribbonControl1 = new DevComponents.DotNetBar.RibbonControl();
             this.ribbonPanel2 = new DevComponents.DotNetBar.RibbonPanel();
+            this.ribbonBar5 = new DevComponents.DotNetBar.RibbonBar();
+            this.btnBime = new DevComponents.DotNetBar.ButtonItem();
+            this.ribbonBar4 = new DevComponents.DotNetBar.RibbonBar();
+            this.btnKambod = new DevComponents.DotNetBar.ButtonItem();
+            this.ribbonBar2 = new DevComponents.DotNetBar.RibbonBar();
+            this.btnListDaroo = new DevComponents.DotNetBar.ButtonItem();
+            this.ribbon3 = new DevComponents.DotNetBar.RibbonBar();
+            this.btnDaroo = new DevComponents.DotNetBar.ButtonItem();
             this.ribbonBar1 = new DevComponents.DotNetBar.RibbonBar();
             this.btnListGrooh = new DevComponents.DotNetBar.ButtonItem();
             this.btn2 = new DevComponents.DotNetBar.RibbonBar();
@@ -69,10 +77,6 @@ namespace DarooKhaneh
             this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
             this.groupPanel1 = new DevComponents.DotNetBar.Controls.GroupPanel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.ribbon3 = new DevComponents.DotNetBar.RibbonBar();
-            this.btnDaroo = new DevComponents.DotNetBar.ButtonItem();
-            this.ribbonBar2 = new DevComponents.DotNetBar.RibbonBar();
-            this.btnListDaroo = new DevComponents.DotNetBar.ButtonItem();
             this.ribbonControl1.SuspendLayout();
             this.ribbonPanel2.SuspendLayout();
             this.ribbonPanel1.SuspendLayout();
@@ -102,7 +106,7 @@ namespace DarooKhaneh
             this.ribbonControl1.QuickToolbarItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.office2007StartButton1,
             this.qatCustomizeItem1});
-            this.ribbonControl1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.ribbonControl1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.ribbonControl1.Size = new System.Drawing.Size(898, 165);
             this.ribbonControl1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.ribbonControl1.SystemText.MaximizeRibbonText = "&Maximize the Ribbon";
@@ -128,6 +132,8 @@ namespace DarooKhaneh
             // ribbonPanel2
             // 
             this.ribbonPanel2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonPanel2.Controls.Add(this.ribbonBar5);
+            this.ribbonPanel2.Controls.Add(this.ribbonBar4);
             this.ribbonPanel2.Controls.Add(this.ribbonBar2);
             this.ribbonPanel2.Controls.Add(this.ribbon3);
             this.ribbonPanel2.Controls.Add(this.ribbonBar1);
@@ -154,6 +160,174 @@ namespace DarooKhaneh
             this.ribbonPanel2.StyleMouseOver.Class = "";
             this.ribbonPanel2.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.ribbonPanel2.TabIndex = 2;
+            // 
+            // ribbonBar5
+            // 
+            this.ribbonBar5.AutoOverflowEnabled = true;
+            // 
+            // 
+            // 
+            this.ribbonBar5.BackgroundMouseOverStyle.Class = "";
+            this.ribbonBar5.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar5.BackgroundStyle.Class = "";
+            this.ribbonBar5.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar5.ContainerControlProcessDialogKey = true;
+            this.ribbonBar5.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ribbonBar5.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.btnBime});
+            this.ribbonBar5.Location = new System.Drawing.Point(503, 0);
+            this.ribbonBar5.Name = "ribbonBar5";
+            this.ribbonBar5.Size = new System.Drawing.Size(100, 94);
+            this.ribbonBar5.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonBar5.TabIndex = 5;
+            this.ribbonBar5.Text = "بیمه ها";
+            // 
+            // 
+            // 
+            this.ribbonBar5.TitleStyle.Class = "";
+            this.ribbonBar5.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar5.TitleStyleMouseOver.Class = "";
+            this.ribbonBar5.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // btnBime
+            // 
+            this.btnBime.Image = ((System.Drawing.Image)(resources.GetObject("btnBime.Image")));
+            this.btnBime.Name = "btnBime";
+            this.btnBime.SubItemsExpandWidth = 14;
+            this.btnBime.Text = "buttonItem1";
+            this.btnBime.Click += new System.EventHandler(this.btnBime_Click);
+            // 
+            // ribbonBar4
+            // 
+            this.ribbonBar4.AutoOverflowEnabled = true;
+            // 
+            // 
+            // 
+            this.ribbonBar4.BackgroundMouseOverStyle.Class = "";
+            this.ribbonBar4.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar4.BackgroundStyle.Class = "";
+            this.ribbonBar4.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar4.ContainerControlProcessDialogKey = true;
+            this.ribbonBar4.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ribbonBar4.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.btnKambod});
+            this.ribbonBar4.Location = new System.Drawing.Point(403, 0);
+            this.ribbonBar4.Name = "ribbonBar4";
+            this.ribbonBar4.Size = new System.Drawing.Size(100, 94);
+            this.ribbonBar4.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonBar4.TabIndex = 4;
+            this.ribbonBar4.Text = "لیست کمبودها";
+            // 
+            // 
+            // 
+            this.ribbonBar4.TitleStyle.Class = "";
+            this.ribbonBar4.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar4.TitleStyleMouseOver.Class = "";
+            this.ribbonBar4.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // btnKambod
+            // 
+            this.btnKambod.Image = ((System.Drawing.Image)(resources.GetObject("btnKambod.Image")));
+            this.btnKambod.Name = "btnKambod";
+            this.btnKambod.SubItemsExpandWidth = 14;
+            this.btnKambod.Text = "buttonItem1";
+            this.btnKambod.Click += new System.EventHandler(this.btnKambod_Click);
+            // 
+            // ribbonBar2
+            // 
+            this.ribbonBar2.AutoOverflowEnabled = true;
+            // 
+            // 
+            // 
+            this.ribbonBar2.BackgroundMouseOverStyle.Class = "";
+            this.ribbonBar2.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar2.BackgroundStyle.Class = "";
+            this.ribbonBar2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar2.ContainerControlProcessDialogKey = true;
+            this.ribbonBar2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ribbonBar2.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.btnListDaroo});
+            this.ribbonBar2.Location = new System.Drawing.Point(303, 0);
+            this.ribbonBar2.Name = "ribbonBar2";
+            this.ribbonBar2.Size = new System.Drawing.Size(100, 94);
+            this.ribbonBar2.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonBar2.TabIndex = 3;
+            this.ribbonBar2.Text = "لیست داروها";
+            // 
+            // 
+            // 
+            this.ribbonBar2.TitleStyle.Class = "";
+            this.ribbonBar2.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar2.TitleStyleMouseOver.Class = "";
+            this.ribbonBar2.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // btnListDaroo
+            // 
+            this.btnListDaroo.Image = ((System.Drawing.Image)(resources.GetObject("btnListDaroo.Image")));
+            this.btnListDaroo.Name = "btnListDaroo";
+            this.btnListDaroo.SubItemsExpandWidth = 14;
+            this.btnListDaroo.Text = "buttonItem1";
+            this.btnListDaroo.Click += new System.EventHandler(this.btnListDaroo_Click);
+            // 
+            // ribbon3
+            // 
+            this.ribbon3.AutoOverflowEnabled = true;
+            // 
+            // 
+            // 
+            this.ribbon3.BackgroundMouseOverStyle.Class = "";
+            this.ribbon3.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbon3.BackgroundStyle.Class = "";
+            this.ribbon3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbon3.ContainerControlProcessDialogKey = true;
+            this.ribbon3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ribbon3.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.btnDaroo});
+            this.ribbon3.Location = new System.Drawing.Point(203, 0);
+            this.ribbon3.Name = "ribbon3";
+            this.ribbon3.Size = new System.Drawing.Size(100, 94);
+            this.ribbon3.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbon3.TabIndex = 2;
+            this.ribbon3.Text = "تعریف دارو";
+            // 
+            // 
+            // 
+            this.ribbon3.TitleStyle.Class = "";
+            this.ribbon3.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbon3.TitleStyleMouseOver.Class = "";
+            this.ribbon3.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // btnDaroo
+            // 
+            this.btnDaroo.Image = ((System.Drawing.Image)(resources.GetObject("btnDaroo.Image")));
+            this.btnDaroo.Name = "btnDaroo";
+            this.btnDaroo.SubItemsExpandWidth = 14;
+            this.btnDaroo.Text = "buttonItem1";
+            this.btnDaroo.Click += new System.EventHandler(this.btnDaroo_Click);
             // 
             // ribbonBar1
             // 
@@ -658,89 +832,6 @@ namespace DarooKhaneh
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // ribbon3
-            // 
-            this.ribbon3.AutoOverflowEnabled = true;
-            // 
-            // 
-            // 
-            this.ribbonBar2.BackgroundMouseOverStyle.Class = "";
-            this.ribbonBar2.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonBar2.BackgroundStyle.Class = "";
-            this.ribbonBar2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.ribbon3.ContainerControlProcessDialogKey = true;
-            this.ribbon3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.ribbon3.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.btnDaroo});
-            this.ribbon3.Location = new System.Drawing.Point(203, 0);
-            this.ribbon3.Name = "ribbon3";
-            this.ribbon3.Size = new System.Drawing.Size(100, 94);
-            this.ribbon3.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.ribbon3.TabIndex = 2;
-            this.ribbon3.Text = "تعریف دارو";
-            // 
-            // 
-            // 
-            this.ribbonBar2.TitleStyle.Class = "";
-            this.ribbonBar2.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonBar2.TitleStyleMouseOver.Class = "";
-            this.ribbonBar2.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // btnDaroo
-            // 
-            this.btnDaroo.Image = ((System.Drawing.Image)(resources.GetObject("btnDaroo.Image")));
-            this.btnDaroo.Name = "btnDaroo";
-            this.btnDaroo.SubItemsExpandWidth = 14;
-            this.btnDaroo.Text = "buttonItem1";
-            this.btnDaroo.Click += new System.EventHandler(this.btnDaroo_Click);
-            // 
-            // ribbonBar2
-            // 
-            this.ribbonBar2.AutoOverflowEnabled = true;
-            // 
-            // 
-            // 
-            this.ribbonBar2.BackgroundMouseOverStyle.Class = "";
-            this.ribbonBar2.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonBar2.BackgroundStyle.Class = "";
-            this.ribbonBar2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.ribbonBar2.ContainerControlProcessDialogKey = true;
-            this.ribbonBar2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.ribbonBar2.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.btnListDaroo});
-            this.ribbonBar2.Location = new System.Drawing.Point(303, 0);
-            this.ribbonBar2.Name = "ribbonBar2";
-            this.ribbonBar2.Size = new System.Drawing.Size(100, 94);
-            this.ribbonBar2.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.ribbonBar2.TabIndex = 3;
-            this.ribbonBar2.Text = "لیست داروها";
-            // 
-            // 
-            // 
-            this.ribbonBar2.TitleStyle.Class = "";
-            this.ribbonBar2.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonBar2.TitleStyleMouseOver.Class = "";
-            this.ribbonBar2.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // btnListDaroo
-            // 
-            this.btnListDaroo.Image = ((System.Drawing.Image)(resources.GetObject("btnListDaroo.Image")));
-            this.btnListDaroo.Name = "btnListDaroo";
-            this.btnListDaroo.SubItemsExpandWidth = 14;
-            this.btnListDaroo.Text = "buttonItem1";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 26F);
@@ -809,5 +900,9 @@ namespace DarooKhaneh
         private DevComponents.DotNetBar.ButtonItem btnDaroo;
         private DevComponents.DotNetBar.RibbonBar ribbonBar2;
         private DevComponents.DotNetBar.ButtonItem btnListDaroo;
+        private DevComponents.DotNetBar.RibbonBar ribbonBar4;
+        private DevComponents.DotNetBar.ButtonItem btnKambod;
+        private DevComponents.DotNetBar.RibbonBar ribbonBar5;
+        private DevComponents.DotNetBar.ButtonItem btnBime;
     }
 }

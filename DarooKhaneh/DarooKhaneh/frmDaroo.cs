@@ -104,7 +104,7 @@ namespace DarooKhaneh
 
         private void btnList_Click(object sender, EventArgs e)
         {
-            //new frmListDaroo().ShowDialog();
+            new frmListDaroo().ShowDialog();
         }
 
         private void btnS_Click(object sender, EventArgs e)

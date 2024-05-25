@@ -65,5 +65,25 @@ namespace DarooKhaneh
         {
             new frmDaroo().ShowDialog();
         }
+
+        private void btnListDaroo_Click(object sender, EventArgs e)
+        {
+            new frmListDaroo().ShowDialog();
+        }
+
+        private void btnKambod_Click(object sender, EventArgs e)
+        {
+            new frmKambod().ShowDialog();
+        }
+
+        private void btnCompany_Click(object sender, EventArgs e)
+        {
+            new frmCompany().ShowDialog();
+        }
+
+        private void btnBime_Click(object sender, EventArgs e)
+        {
+            new frmBemeh().ShowDialog();
+        }
     }
 }

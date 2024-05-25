@@ -78,6 +78,18 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmBemeh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBemeh.Designer.cs">
+      <DependentUpon>frmBemeh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCompany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCompany.Designer.cs">
+      <DependentUpon>frmCompany.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmDaroo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +107,18 @@
     </Compile>
     <Compile Include="frmInfo.Designer.cs">
       <DependentUpon>frmInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKambod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKambod.Designer.cs">
+      <DependentUpon>frmKambod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListDaroo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListDaroo.Designer.cs">
+      <DependentUpon>frmListDaroo.cs</DependentUpon>
     </Compile>
     <Compile Include="frmListGrooh.cs">
       <SubType>Form</SubType>
@@ -119,6 +143,12 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmBemeh.resx">
+      <DependentUpon>frmBemeh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCompany.resx">
+      <DependentUpon>frmCompany.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmDaroo.resx">
       <DependentUpon>frmDaroo.cs</DependentUpon>
     </EmbeddedResource>
@@ -127,6 +157,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmInfo.resx">
       <DependentUpon>frmInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKambod.resx">
+      <DependentUpon>frmKambod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListDaroo.resx">
+      <DependentUpon>frmListDaroo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmListGrooh.resx">
       <DependentUpon>frmListGrooh.cs</DependentUpon>
