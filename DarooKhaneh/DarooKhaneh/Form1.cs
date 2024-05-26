@@ -100,5 +100,25 @@ namespace DarooKhaneh
         {
 
         }
+
+        private void btnPesenel_Click(object sender, EventArgs e)
+        {
+            new frmPersenel().ShowDialog();
+        }
+
+        private void btnListPesenel_Click(object sender, EventArgs e)
+        {
+            new frmListPersenel().ShowDialog();
+        }
+
+        private void btnBank_Click(object sender, EventArgs e)
+        {
+            new frmBank().ShowDialog();
+        }
+
+        private void btnListHesab_Click(object sender, EventArgs e)
+        {
+            new frmListHesab().ShowDialog();
+        }
     }
 }
