@@ -112,7 +112,7 @@ namespace DarooKhaneh
 
         private void btnList_Click(object sender, EventArgs e)
         {
-            //new frmListBemeh().ShowDialog();
+            new frmListBemeh().ShowDialog();
         }
     }
 }

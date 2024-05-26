@@ -29,21 +29,21 @@ namespace DarooKhaneh
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.groupPanel5 = new DevComponents.DotNetBar.Controls.GroupPanel();
             this.dgvDaroo = new DevComponents.DotNetBar.Controls.DataGridViewX();
             this.groupPanel2 = new DevComponents.DotNetBar.Controls.GroupPanel();
-            this.buttonX1 = new DevComponents.DotNetBar.ButtonX();
-            this.txtTedad1 = new DevComponents.Editors.IntegerInput();
-            this.label7 = new System.Windows.Forms.Label();
+            this.buttonX2 = new DevComponents.DotNetBar.ButtonX();
             this.txtTedad2 = new DevComponents.Editors.IntegerInput();
             this.label1 = new System.Windows.Forms.Label();
-            this.buttonX2 = new DevComponents.DotNetBar.ButtonX();
+            this.txtTedad1 = new DevComponents.Editors.IntegerInput();
+            this.label7 = new System.Windows.Forms.Label();
+            this.buttonX1 = new DevComponents.DotNetBar.ButtonX();
             this.groupPanel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDaroo)).BeginInit();
             this.groupPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.txtTedad1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtTedad2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtTedad1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupPanel5
@@ -92,14 +92,14 @@ namespace DarooKhaneh
             // 
             this.dgvDaroo.BackgroundColor = System.Drawing.Color.White;
             this.dgvDaroo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("B Nazanin", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvDaroo.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("B Nazanin", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvDaroo.DefaultCellStyle = dataGridViewCellStyle2;
             this.dgvDaroo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvDaroo.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
             this.dgvDaroo.Location = new System.Drawing.Point(0, 0);
@@ -156,43 +156,18 @@ namespace DarooKhaneh
             this.groupPanel2.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.groupPanel2.TabIndex = 5;
             // 
-            // buttonX1
+            // buttonX2
             // 
-            this.buttonX1.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX1.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX1.Font = new System.Drawing.Font("B Nazanin", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.buttonX1.Location = new System.Drawing.Point(362, 3);
-            this.buttonX1.Name = "buttonX1";
-            this.buttonX1.Size = new System.Drawing.Size(338, 27);
-            this.buttonX1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonX1.TabIndex = 24;
-            this.buttonX1.Text = "جستوجو بر اساس تعداد وارد شده";
-            this.buttonX1.Click += new System.EventHandler(this.buttonX1_Click);
-            // 
-            // txtTedad1
-            // 
-            // 
-            // 
-            // 
-            this.txtTedad1.BackgroundStyle.Class = "DateTimeInputBackground";
-            this.txtTedad1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtTedad1.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2;
-            this.txtTedad1.Font = new System.Drawing.Font("B Nazanin", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.txtTedad1.Location = new System.Drawing.Point(957, 0);
-            this.txtTedad1.Name = "txtTedad1";
-            this.txtTedad1.ShowUpDown = true;
-            this.txtTedad1.Size = new System.Drawing.Size(88, 34);
-            this.txtTedad1.TabIndex = 26;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("B Nazanin", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label7.Location = new System.Drawing.Point(1051, 3);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(54, 27);
-            this.label7.TabIndex = 25;
-            this.label7.Text = "تعداد از";
+            this.buttonX2.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX2.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.buttonX2.Font = new System.Drawing.Font("B Nazanin", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.buttonX2.Location = new System.Drawing.Point(5, 3);
+            this.buttonX2.Name = "buttonX2";
+            this.buttonX2.Size = new System.Drawing.Size(351, 27);
+            this.buttonX2.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX2.TabIndex = 29;
+            this.buttonX2.Text = "نمایش لیست همه دارو های تعداد صفر شده یا تمام شده";
+            this.buttonX2.Click += new System.EventHandler(this.buttonX2_Click);
             // 
             // txtTedad2
             // 
@@ -219,18 +194,44 @@ namespace DarooKhaneh
             this.label1.TabIndex = 27;
             this.label1.Text = "تعداد تا";
             // 
-            // buttonX2
+            // txtTedad1
             // 
-            this.buttonX2.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX2.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX2.Font = new System.Drawing.Font("B Nazanin", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.buttonX2.Location = new System.Drawing.Point(5, 3);
-            this.buttonX2.Name = "buttonX2";
-            this.buttonX2.Size = new System.Drawing.Size(351, 27);
-            this.buttonX2.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonX2.TabIndex = 29;
-            this.buttonX2.Text = "نمایش لیست همه دارو های تعداد صفر شده یا تمام شده";
-            this.buttonX2.Click += new System.EventHandler(this.buttonX2_Click);
+            // 
+            // 
+            // 
+            this.txtTedad1.BackgroundStyle.Class = "DateTimeInputBackground";
+            this.txtTedad1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtTedad1.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2;
+            this.txtTedad1.Font = new System.Drawing.Font("B Nazanin", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.txtTedad1.Location = new System.Drawing.Point(957, 0);
+            this.txtTedad1.Name = "txtTedad1";
+            this.txtTedad1.ShowUpDown = true;
+            this.txtTedad1.Size = new System.Drawing.Size(88, 34);
+            this.txtTedad1.TabIndex = 26;
+            this.txtTedad1.ValueChanged += new System.EventHandler(this.txtTedad1_ValueChanged);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("B Nazanin", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label7.Location = new System.Drawing.Point(1051, 3);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(54, 27);
+            this.label7.TabIndex = 25;
+            this.label7.Text = "تعداد از";
+            // 
+            // buttonX1
+            // 
+            this.buttonX1.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX1.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.buttonX1.Font = new System.Drawing.Font("B Nazanin", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.buttonX1.Location = new System.Drawing.Point(362, 3);
+            this.buttonX1.Name = "buttonX1";
+            this.buttonX1.Size = new System.Drawing.Size(338, 27);
+            this.buttonX1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX1.TabIndex = 24;
+            this.buttonX1.Text = "جستوجو بر اساس تعداد وارد شده";
+            this.buttonX1.Click += new System.EventHandler(this.buttonX1_Click);
             // 
             // frmKambod
             // 
@@ -240,8 +241,9 @@ namespace DarooKhaneh
             this.Controls.Add(this.groupPanel5);
             this.Controls.Add(this.groupPanel2);
             this.Font = new System.Drawing.Font("B Nazanin", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "frmKambod";
+            this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "گزارش داروهای در حال اتمام";
             this.Load += new System.EventHandler(this.frmKambod_Load);
@@ -249,8 +251,8 @@ namespace DarooKhaneh
             ((System.ComponentModel.ISupportInitialize)(this.dgvDaroo)).EndInit();
             this.groupPanel2.ResumeLayout(false);
             this.groupPanel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.txtTedad1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtTedad2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtTedad1)).EndInit();
             this.ResumeLayout(false);
 
         }

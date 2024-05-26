@@ -114,6 +114,12 @@
     <Compile Include="frmKambod.Designer.cs">
       <DependentUpon>frmKambod.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmListBemeh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListBemeh.Designer.cs">
+      <DependentUpon>frmListBemeh.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmListDaroo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -160,6 +166,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmKambod.resx">
       <DependentUpon>frmKambod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListBemeh.resx">
+      <DependentUpon>frmListBemeh.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmListDaroo.resx">
       <DependentUpon>frmListDaroo.cs</DependentUpon>

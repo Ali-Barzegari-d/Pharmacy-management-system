@@ -1,40 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<StiSerializer version="1.02" type="Net" application="StiReport">
+<StiSerializer version="1.0" application="StiReport">
   <Dictionary Ref="1" type="Dictionary" isKey="true">
     <BusinessObjects isList="true" count="0" />
     <Databases isList="true" count="1">
-      <MS_x0020_SQL Ref="2" type="Stimulsoft.Report.Dictionary.StiSqlDatabase" isKey="true">
-        <Alias>MS SQL</Alias>
-        <ConnectionStringEncrypted>9Fzdz+9K89n5YYTMZxxif9EgzYlIXdOBRlvtvcNxJQuQeLVIxlAByOxGeQhpbGJGwlqBK01U84Vqa+XcYACkO+RUaYnFWTGtb2PZ3OlMIl7lWvcCTw==</ConnectionStringEncrypted>
-        <Key>d3ea30ccb6e444beac8997d10687c70d</Key>
-        <Name>MS SQL</Name>
-      </MS_x0020_SQL>
+      <Connection Ref="2" type="Stimulsoft.Report.Dictionary.StiSqlDatabase" isKey="true">
+        <Alias>Connection</Alias>
+        <ConnectionString>Data Source=.;Integrated Security=True;Initial Catalog=DarooKhaneh</ConnectionString>
+        <Name>Connection</Name>
+        <PromptUserNameAndPassword>False</PromptUserNameAndPassword>
+      </Connection>
     </Databases>
     <DataSources isList="true" count="1">
       <ReportGrooh Ref="3" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
         <Alias>ReportGrooh</Alias>
-        <Columns isList="true" count="2">
-          <value>id,System.Int32</value>
+        <Columns isList="true" count="1">
           <value>NameG,System.String</value>
         </Columns>
         <CommandTimeout>30</CommandTimeout>
         <Dictionary isRef="1" />
-        <Key>e100d1414e65458d9dea198033a2bba3</Key>
         <Name>ReportGrooh</Name>
-        <NameInSource>MS SQL</NameInSource>
+        <NameInSource>Connection</NameInSource>
         <Parameters isList="true" count="0" />
-        <SqlCommand>ReportGrooh</SqlCommand>
-        <Type>StoredProcedure</Type>
+        <SqlCommand>execute ReportGrooh</SqlCommand>
       </ReportGrooh>
     </DataSources>
     <Relations isList="true" count="0" />
     <Report isRef="0" />
-    <Resources isList="true" count="0" />
     <Variables isList="true" count="0" />
   </Dictionary>
   <EngineVersion>EngineV2</EngineVersion>
   <GlobalizationStrings isList="true" count="0" />
-  <Key>c2880c2041c344ef9e121aa99835eaa8</Key>
   <MetaTags isList="true" count="0" />
   <Pages isList="true" count="1">
     <Page1 Ref="4" type="Page" isKey="true">
@@ -49,7 +44,6 @@
               <Brush>Transparent</Brush>
               <ClientRectangle>3,0,6.8,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
               <Font>B Titr,12,Bold,Point,False,178</Font>
               <Guid>8f90d1f14e8a42bd8a734a1baeec27ab</Guid>
               <Margins>0,0,0,0</Margins>
@@ -63,7 +57,6 @@
               <Brush>Transparent</Brush>
               <ClientRectangle>11.6,0.8,1.2,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
               <Font>B Titr,12,Bold,Point,False,178</Font>
               <Guid>1e031c9fca4b4a7b8d56ec2dc73955c5</Guid>
               <HorAlignment>Center</HorAlignment>
@@ -78,7 +71,6 @@
               <Brush>Transparent</Brush>
               <ClientRectangle>0.2,0.8,11.2,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
               <Font>B Titr,12,Bold,Point,False,178</Font>
               <Guid>29feaeceb4aa4a90aa5ac61a6c4f7603</Guid>
               <HorAlignment>Center</HorAlignment>
@@ -92,11 +84,9 @@
             <HorizontalLinePrimitive1 Ref="9" type="HorizontalLinePrimitive" isKey="true">
               <ClientRectangle>0,0.8,12.8,0.0254</ClientRectangle>
               <Color>Black</Color>
-              <Conditions isList="true" count="0" />
               <EndCap Ref="10" type="Cap" isKey="true">
                 <Color>Black</Color>
               </EndCap>
-              <Expressions isList="true" count="0" />
               <Name>HorizontalLinePrimitive1</Name>
               <Page isRef="4" />
               <Parent isRef="5" />
@@ -108,11 +98,9 @@
             <HorizontalLinePrimitive2 Ref="12" type="HorizontalLinePrimitive" isKey="true">
               <ClientRectangle>0,1.6,12.8,0.0254</ClientRectangle>
               <Color>Black</Color>
-              <Conditions isList="true" count="0" />
               <EndCap Ref="13" type="Cap" isKey="true">
                 <Color>Black</Color>
               </EndCap>
-              <Expressions isList="true" count="0" />
               <Guid>57e2c867b53a4cbda035b942f67db862</Guid>
               <Name>HorizontalLinePrimitive2</Name>
               <Page isRef="4" />
@@ -124,7 +112,6 @@
             </HorizontalLinePrimitive2>
           </Components>
           <Conditions isList="true" count="0" />
-          <Expressions isList="true" count="0" />
           <Name>PageHeaderBand1</Name>
           <Page isRef="4" />
           <Parent isRef="4" />
@@ -137,7 +124,6 @@
               <Brush>Transparent</Brush>
               <ClientRectangle>0,0,1.2,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
               <Font>B Titr,12,Bold,Point,False,178</Font>
               <Guid>d726db02831c4fa79191e4ffde1f58bd</Guid>
               <HorAlignment>Center</HorAlignment>
@@ -147,13 +133,11 @@
               <Parent isRef="15" />
               <Text>{PageNumber}</Text>
               <TextBrush>Black</TextBrush>
-              <Type>SystemVariables</Type>
             </Text6>
             <Text7 Ref="17" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <ClientRectangle>1.2,0,2.2,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
               <Font>B Titr,12,Bold,Point,False,178</Font>
               <Guid>f371a9bdb82e4ab0a2dd2ebc81e03ffa</Guid>
               <HorAlignment>Center</HorAlignment>
@@ -167,11 +151,9 @@
             <HorizontalLinePrimitive3 Ref="18" type="HorizontalLinePrimitive" isKey="true">
               <ClientRectangle>0,0,12.6,0.0254</ClientRectangle>
               <Color>Black</Color>
-              <Conditions isList="true" count="0" />
               <EndCap Ref="19" type="Cap" isKey="true">
                 <Color>Black</Color>
               </EndCap>
-              <Expressions isList="true" count="0" />
               <Name>HorizontalLinePrimitive3</Name>
               <Page isRef="4" />
               <Parent isRef="15" />
@@ -181,20 +163,19 @@
             </HorizontalLinePrimitive3>
           </Components>
           <Conditions isList="true" count="0" />
-          <Expressions isList="true" count="0" />
           <Name>PageFooterBand1</Name>
           <Page isRef="4" />
           <Parent isRef="4" />
         </PageFooterBand1>
         <DataBand1 Ref="21" type="DataBand" isKey="true">
           <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
           <ClientRectangle>0,2.8,12.8,0.8</ClientRectangle>
           <Components isList="true" count="2">
             <Text1 Ref="22" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <ClientRectangle>11.6,0,1.2,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
               <Font>B Titr,12,Bold,Point,False,178</Font>
               <Guid>7fb9d3c5a75c420880b8981222e5542a</Guid>
               <HorAlignment>Center</HorAlignment>
@@ -204,13 +185,11 @@
               <Parent isRef="21" />
               <Text>{Line}</Text>
               <TextBrush>Black</TextBrush>
-              <Type>SystemVariables</Type>
             </Text1>
             <Text5 Ref="23" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <ClientRectangle>0.2,0,11.2,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
               <Font>B Titr,12,Bold,Point,False,178</Font>
               <Guid>09c9e31781674ed187c4a81d618c3f78</Guid>
               <HorAlignment>Center</HorAlignment>
@@ -220,13 +199,11 @@
               <Parent isRef="21" />
               <Text>{ReportGrooh.NameG}</Text>
               <TextBrush>Black</TextBrush>
-              <Type>DataColumn</Type>
             </Text5>
           </Components>
           <Conditions isList="true" count="0" />
           <DataRelationName isNull="true" />
           <DataSourceName>ReportGrooh</DataSourceName>
-          <Expressions isList="true" count="0" />
           <Filters isList="true" count="0" />
           <Name>DataBand1</Name>
           <Page isRef="4" />
@@ -235,7 +212,6 @@
         </DataBand1>
       </Components>
       <Conditions isList="true" count="0" />
-      <Expressions isList="true" count="0" />
       <Guid>eb6d15f5bf0742cfa29704ca61073ccc</Guid>
       <Margins>1,1,1,1</Margins>
       <Name>Page1</Name>
@@ -243,8 +219,13 @@
       <PageWidth>14.8</PageWidth>
       <PaperSize>A5</PaperSize>
       <Report isRef="0" />
+      <Watermark Ref="24" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
     </Page1>
   </Pages>
+  <PrinterSettings Ref="25" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
   <ReferencedAssemblies isList="true" count="8">
     <value>System.Dll</value>
     <value>System.Drawing.Dll</value>
@@ -256,13 +237,13 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>5/11/2024 11:43:53 PM</ReportChanged>
+  <ReportChanged>4/6/2017 11:48:59 AM</ReportChanged>
   <ReportCreated>4/6/2017 11:42:30 AM</ReportCreated>
-  <ReportFile>E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\bin\Debug\Report\rptGrooh.mrt</ReportFile>
-  <ReportGuid>daa9387aa77b4e438078d35668377124</ReportGuid>
+  <ReportFile>D:\DarooKhaneh\DarooKhaneh\DarooKhaneh\bin\Debug\Report\rptGrooh.mrt</ReportFile>
+  <ReportGuid>1893e3d934d94d448093f009869120cf</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
-  <ReportVersion>2021.4.2.0</ReportVersion>
+  <ReportVersion>2010.1.700</ReportVersion>
   <Script>using System;
 using System.Drawing;
 using System.Windows.Forms;
@@ -283,8 +264,7 @@ namespace Reports
         {
             this.InitializeComponent();
         }
-        #region StiReport Designer generated code - do not modify
-		#endregion StiReport Designer generated code - do not modify
+        #region StiReport Designer generated code - do not modify#endregion StiReport Designer generated code - do not modify
     }
 }
 </Script>

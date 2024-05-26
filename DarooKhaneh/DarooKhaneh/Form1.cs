@@ -85,5 +85,20 @@ namespace DarooKhaneh
         {
             new frmBemeh().ShowDialog();
         }
+
+        private void btnListBemeh_Click(object sender, EventArgs e)
+        {
+            new frmListBemeh().ShowDialog();
+        }
+
+        private void ribbonTabItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ribbonTabItem2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

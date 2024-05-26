@@ -25,7 +25,7 @@ namespace DarooKhaneh
             SqlDataAdapter adp = new SqlDataAdapter();
             adp.SelectCommand = new SqlCommand();
             adp.SelectCommand.Connection = con;
-            adp.SelectCommand.CommandText = "Select * from Daroo where Tedad Between '" + txtTedad1.Text + "' AND '" + txtTedad1.Text + "'";
+            adp.SelectCommand.CommandText = "Select * from Daroo where Tedad Between '" + txtTedad1.Text + "' AND '" + txtTedad2.Text + "'";
             adp.Fill(ds, "Daroo");
             dgvDaroo.DataSource = ds;
             dgvDaroo.DataMember = "Daroo";
@@ -78,12 +78,17 @@ namespace DarooKhaneh
 
         private void buttonX1_Click(object sender, EventArgs e)
         {
-            Display0();
+            DisplayTedad();
         }
 
         private void buttonX2_Click(object sender, EventArgs e)
         {
-            DisplayTedad();
+            Display0();
+        }
+
+        private void txtTedad1_ValueChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

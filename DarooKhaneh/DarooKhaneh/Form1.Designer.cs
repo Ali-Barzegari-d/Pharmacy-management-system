@@ -33,6 +33,8 @@ namespace DarooKhaneh
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.ribbonControl1 = new DevComponents.DotNetBar.RibbonControl();
             this.ribbonPanel2 = new DevComponents.DotNetBar.RibbonPanel();
+            this.ribbonBar6 = new DevComponents.DotNetBar.RibbonBar();
+            this.btnListBemeh = new DevComponents.DotNetBar.ButtonItem();
             this.ribbonBar5 = new DevComponents.DotNetBar.RibbonBar();
             this.btnBime = new DevComponents.DotNetBar.ButtonItem();
             this.ribbonBar4 = new DevComponents.DotNetBar.RibbonBar();
@@ -132,6 +134,7 @@ namespace DarooKhaneh
             // ribbonPanel2
             // 
             this.ribbonPanel2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonPanel2.Controls.Add(this.ribbonBar6);
             this.ribbonPanel2.Controls.Add(this.ribbonBar5);
             this.ribbonPanel2.Controls.Add(this.ribbonBar4);
             this.ribbonPanel2.Controls.Add(this.ribbonBar2);
@@ -160,6 +163,48 @@ namespace DarooKhaneh
             this.ribbonPanel2.StyleMouseOver.Class = "";
             this.ribbonPanel2.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.ribbonPanel2.TabIndex = 2;
+            // 
+            // ribbonBar6
+            // 
+            this.ribbonBar6.AutoOverflowEnabled = true;
+            // 
+            // 
+            // 
+            this.ribbonBar6.BackgroundMouseOverStyle.Class = "";
+            this.ribbonBar6.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar6.BackgroundStyle.Class = "";
+            this.ribbonBar6.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar6.ContainerControlProcessDialogKey = true;
+            this.ribbonBar6.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ribbonBar6.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.btnListBemeh});
+            this.ribbonBar6.Location = new System.Drawing.Point(603, 0);
+            this.ribbonBar6.Name = "ribbonBar6";
+            this.ribbonBar6.Size = new System.Drawing.Size(100, 94);
+            this.ribbonBar6.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonBar6.TabIndex = 6;
+            this.ribbonBar6.Text = "لیست بیمه ها";
+            // 
+            // 
+            // 
+            this.ribbonBar6.TitleStyle.Class = "";
+            this.ribbonBar6.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar6.TitleStyleMouseOver.Class = "";
+            this.ribbonBar6.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // btnListBemeh
+            // 
+            this.btnListBemeh.Image = ((System.Drawing.Image)(resources.GetObject("btnListBemeh.Image")));
+            this.btnListBemeh.Name = "btnListBemeh";
+            this.btnListBemeh.SubItemsExpandWidth = 14;
+            this.btnListBemeh.Text = "buttonItem1";
+            this.btnListBemeh.Click += new System.EventHandler(this.btnListBemeh_Click);
             // 
             // ribbonBar5
             // 
@@ -579,6 +624,7 @@ namespace DarooKhaneh
             this.ribbonTabItem1.Name = "ribbonTabItem1";
             this.ribbonTabItem1.Panel = this.ribbonPanel1;
             this.ribbonTabItem1.Text = "عملیات پایه";
+            this.ribbonTabItem1.Click += new System.EventHandler(this.ribbonTabItem1_Click);
             // 
             // ribbonTabItem2
             // 
@@ -586,6 +632,7 @@ namespace DarooKhaneh
             this.ribbonTabItem2.Name = "ribbonTabItem2";
             this.ribbonTabItem2.Panel = this.ribbonPanel2;
             this.ribbonTabItem2.Text = "تعاریف اصلی";
+            this.ribbonTabItem2.Click += new System.EventHandler(this.ribbonTabItem2_Click);
             // 
             // office2007StartButton1
             // 
@@ -904,5 +951,7 @@ namespace DarooKhaneh
         private DevComponents.DotNetBar.ButtonItem btnKambod;
         private DevComponents.DotNetBar.RibbonBar ribbonBar5;
         private DevComponents.DotNetBar.ButtonItem btnBime;
+        private DevComponents.DotNetBar.RibbonBar ribbonBar6;
+        private DevComponents.DotNetBar.ButtonItem btnListBemeh;
     }
 }
