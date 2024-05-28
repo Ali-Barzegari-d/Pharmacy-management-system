@@ -57,7 +57,7 @@ namespace DarooKhaneh
             this.groupPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupPanel1.Location = new System.Drawing.Point(0, 0);
             this.groupPanel1.Name = "groupPanel1";
-            this.groupPanel1.Size = new System.Drawing.Size(570, 250);
+            this.groupPanel1.Size = new System.Drawing.Size(526, 235);
             // 
             // 
             // 
@@ -97,7 +97,7 @@ namespace DarooKhaneh
             this.btnout.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btnout.Font = new System.Drawing.Font("B Nazanin", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.btnout.Image = ((System.Drawing.Image)(resources.GetObject("btnout.Image")));
-            this.btnout.Location = new System.Drawing.Point(353, 171);
+            this.btnout.Location = new System.Drawing.Point(273, 151);
             this.btnout.Name = "btnout";
             this.btnout.Shape = new DevComponents.DotNetBar.RoundRectangleShapeDescriptor(2, 15, 15, 2);
             this.btnout.Size = new System.Drawing.Size(96, 48);
@@ -112,7 +112,7 @@ namespace DarooKhaneh
             this.btnLogin.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btnLogin.Font = new System.Drawing.Font("B Nazanin", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.btnLogin.Image = ((System.Drawing.Image)(resources.GetObject("btnLogin.Image")));
-            this.btnLogin.Location = new System.Drawing.Point(455, 171);
+            this.btnLogin.Location = new System.Drawing.Point(375, 151);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Shape = new DevComponents.DotNetBar.RoundRectangleShapeDescriptor(2, 15, 15, 2);
             this.btnLogin.Size = new System.Drawing.Size(100, 48);
@@ -123,24 +123,26 @@ namespace DarooKhaneh
             // 
             // txtPass
             // 
-            this.txtPass.Location = new System.Drawing.Point(271, 101);
+            this.txtPass.Location = new System.Drawing.Point(232, 77);
+            this.txtPass.Multiline = true;
             this.txtPass.Name = "txtPass";
             this.txtPass.PasswordChar = '*';
-            this.txtPass.Size = new System.Drawing.Size(209, 36);
+            this.txtPass.Size = new System.Drawing.Size(209, 30);
             this.txtPass.TabIndex = 4;
             // 
             // txtUname
             // 
-            this.txtUname.Location = new System.Drawing.Point(271, 60);
+            this.txtUname.Location = new System.Drawing.Point(232, 36);
+            this.txtUname.Multiline = true;
             this.txtUname.Name = "txtUname";
-            this.txtUname.Size = new System.Drawing.Size(209, 36);
+            this.txtUname.Size = new System.Drawing.Size(209, 30);
             this.txtUname.TabIndex = 2;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("B Nazanin", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label2.Location = new System.Drawing.Point(486, 101);
+            this.label2.Location = new System.Drawing.Point(447, 77);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(78, 30);
             this.label2.TabIndex = 5;
@@ -150,7 +152,7 @@ namespace DarooKhaneh
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("B Nazanin", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label1.Location = new System.Drawing.Point(486, 60);
+            this.label1.Location = new System.Drawing.Point(447, 36);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(78, 30);
             this.label1.TabIndex = 3;
@@ -159,9 +161,9 @@ namespace DarooKhaneh
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(-3, -26);
+            this.pictureBox1.Location = new System.Drawing.Point(9, 8);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(265, 273);
+            this.pictureBox1.Size = new System.Drawing.Size(199, 212);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -170,7 +172,7 @@ namespace DarooKhaneh
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(570, 250);
+            this.ClientSize = new System.Drawing.Size(526, 235);
             this.Controls.Add(this.groupPanel1);
             this.Font = new System.Drawing.Font("B Nazanin", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;

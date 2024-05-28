@@ -120,5 +120,40 @@ namespace DarooKhaneh
         {
             new frmListHesab().ShowDialog();
         }
+
+        private void btnSandogh_Click(object sender, EventArgs e)
+        {
+            new frmSandoog().ShowDialog();
+        }
+
+        private void btnListSandoog_Click(object sender, EventArgs e)
+        {
+            new frmListSandoog().ShowDialog();
+        }
+
+        private void btnCheckD_Click(object sender, EventArgs e)
+        {
+            new frmCheckD().ShowDialog();
+        }
+
+        private void btnFactK_Click(object sender, EventArgs e)
+        {
+            new frmKharid().ShowDialog();
+        }
+
+        private void buttonItem1_Click(object sender, EventArgs e)
+        {
+            new frmListKharid().ShowDialog();
+        }
+
+        private void buttonItem15_Click(object sender, EventArgs e)
+        {
+            new frmFroosh().ShowDialog();
+        }
+
+        private void buttonItem16_Click(object sender, EventArgs e)
+        {
+            new frmListFroosh().ShowDialog();
+        }
     }
 }

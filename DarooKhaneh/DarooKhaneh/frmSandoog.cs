@@ -10,20 +10,14 @@ using System.Data.SqlClient;
 
 namespace DarooKhaneh
 {
-    public partial class frmBank : Form
+    public partial class frmSandoog : Form
     {
-        public frmBank()
+        public frmSandoog()
         {
             InitializeComponent();
         }
-
         SqlConnection con = new SqlConnection("Data source=(local);initial catalog=Darookhaneh;integrated security=true");
         SqlCommand cmd = new SqlCommand();
-
-        private void frmBank_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void btnSave_Click(object sender, EventArgs e)
         {
@@ -31,22 +25,25 @@ namespace DarooKhaneh
             {
                 cmd.Parameters.Clear();
                 cmd.Connection = con;
-                cmd.CommandText = "insert into Hesab(NameH,ShH,Mablagh,Tozih)values(@a,@b,@c,@d)";
-                cmd.Parameters.AddWithValue("@a", txtName.Text);
-                cmd.Parameters.AddWithValue("@b", txtShH.Text);
+                cmd.CommandText = "Insert into Sandoog(Ids,NameS,Mablagh,Tozih)values(@a,@b,@c,@d)";
+                cmd.Parameters.AddWithValue("@a", txtCode.Text);
+                cmd.Parameters.AddWithValue("@b", txtName.Text);
                 cmd.Parameters.AddWithValue("@c", txtMablagh.Text);
                 cmd.Parameters.AddWithValue("@d", txtTozih.Text);
                 con.Open();
                 cmd.ExecuteNonQuery();
                 con.Close();
-                MessageBox.Show("ثبت حساب انجام شد");
-                //*********************
-                
+                MessageBox.Show("ثبت انجام شد");
             }
             catch (Exception)
             {
                 MessageBox.Show("مشکلی پیش آمده است");
             }
+        }
+
+        private void frmSandoog_Load(object sender, EventArgs e)
+        {
+
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
@@ -55,11 +52,11 @@ namespace DarooKhaneh
             {
                 cmd.Parameters.Clear();
                 cmd.Connection = con;
-                cmd.CommandText = "Delete from Hesab where id=" + txtCode.Text;
+                cmd.CommandText = "Delete from Sandoog where idS=" + txtCode.Text;
                 con.Open();
                 cmd.ExecuteNonQuery();
                 con.Close();
-                MessageBox.Show("حذف حساب انجام شد");
+                MessageBox.Show("حذف انجام شد");
             }
             catch (Exception)
             {
@@ -69,18 +66,15 @@ namespace DarooKhaneh
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
-            con.Close();
             try
             {
                 cmd.Parameters.Clear();
                 cmd.Connection = con;
-                cmd.CommandText = "Update Hesab Set NameH='" + txtName.Text + "',ShH='" + txtShH.Text + "',Mablagh='" + txtMablagh.Text + "',Tozih='" + txtTozih.Text + "' where id=" + txtCode.Text;
+                cmd.CommandText = "Update Sandoog set Ids='" + txtCode.Text + "',NameS='" + txtName.Text + "',Mablagh='" + txtMablagh.Text + "',Tozih='" + txtTozih.Text + "' where ids=" + txtCode.Text;
                 con.Open();
                 cmd.ExecuteNonQuery();
                 con.Close();
-                MessageBox.Show("ویرایش حساب انجام شد");
-                //*********************
-                
+                MessageBox.Show("ویرایش انجام شد");
             }
             catch (Exception)
             {
@@ -90,24 +84,22 @@ namespace DarooKhaneh
 
         private void btnList_Click(object sender, EventArgs e)
         {
-            new frmListHesab().ShowDialog();
+            new frmListSandoog().ShowDialog();
         }
 
         private void btnS_Click(object sender, EventArgs e)
         {
-            con.Close();
             SqlDataReader dr;
             cmd.Parameters.Clear();
             cmd.Connection = con;
-            cmd.CommandText = "select * from Hesab where Id="+txtCode.Text;
-            //cmd.Parameters.AddWithValue("@N", txtCode.Text);
+            cmd.CommandText = "select * from Sandoog where IdS=@N";
+            cmd.Parameters.AddWithValue("@N", txtCode.Text);
             con.Open();
             dr = cmd.ExecuteReader();
             if (dr.Read())
             {
-                txtCode.Text = dr["id"].ToString();
-                txtName.Text = dr["NameH"].ToString();
-                txtShH.Text = dr["ShH"].ToString();
+                txtCode.Text = dr["idS"].ToString();
+                txtName.Text = dr["NameS"].ToString();
                 txtMablagh.Text = dr["Mablagh"].ToString();
                 txtTozih.Text = dr["Tozih"].ToString();
             }

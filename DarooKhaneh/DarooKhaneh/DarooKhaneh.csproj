@@ -90,6 +90,12 @@
     <Compile Include="frmBemeh.Designer.cs">
       <DependentUpon>frmBemeh.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmCheckD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCheckD.Designer.cs">
+      <DependentUpon>frmCheckD.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmCompany.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +107,12 @@
     </Compile>
     <Compile Include="frmDaroo.Designer.cs">
       <DependentUpon>frmDaroo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFroosh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFroosh.Designer.cs">
+      <DependentUpon>frmFroosh.cs</DependentUpon>
     </Compile>
     <Compile Include="frmGroup.cs">
       <SubType>Form</SubType>
@@ -120,6 +132,12 @@
     <Compile Include="frmKambod.Designer.cs">
       <DependentUpon>frmKambod.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmKharid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKharid.Designer.cs">
+      <DependentUpon>frmKharid.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmListBemeh.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -131,6 +149,12 @@
     </Compile>
     <Compile Include="frmListDaroo.Designer.cs">
       <DependentUpon>frmListDaroo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListFroosh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListFroosh.Designer.cs">
+      <DependentUpon>frmListFroosh.cs</DependentUpon>
     </Compile>
     <Compile Include="frmListGrooh.cs">
       <SubType>Form</SubType>
@@ -144,11 +168,23 @@
     <Compile Include="frmListHesab.Designer.cs">
       <DependentUpon>frmListHesab.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmListKharid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListKharid.Designer.cs">
+      <DependentUpon>frmListKharid.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmListPersenel.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmListPersenel.Designer.cs">
       <DependentUpon>frmListPersenel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListSandoog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListSandoog.Designer.cs">
+      <DependentUpon>frmListSandoog.cs</DependentUpon>
     </Compile>
     <Compile Include="frmLogin.cs">
       <SubType>Form</SubType>
@@ -161,6 +197,12 @@
     </Compile>
     <Compile Include="frmPersenel.Designer.cs">
       <DependentUpon>frmPersenel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSandoog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSandoog.Designer.cs">
+      <DependentUpon>frmSandoog.cs</DependentUpon>
     </Compile>
     <Compile Include="frmUser.cs">
       <SubType>Form</SubType>
@@ -179,11 +221,17 @@
     <EmbeddedResource Include="frmBemeh.resx">
       <DependentUpon>frmBemeh.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmCheckD.resx">
+      <DependentUpon>frmCheckD.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmCompany.resx">
       <DependentUpon>frmCompany.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmDaroo.resx">
       <DependentUpon>frmDaroo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFroosh.resx">
+      <DependentUpon>frmFroosh.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmGroup.resx">
       <DependentUpon>frmGroup.cs</DependentUpon>
@@ -194,11 +242,17 @@
     <EmbeddedResource Include="frmKambod.resx">
       <DependentUpon>frmKambod.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmKharid.resx">
+      <DependentUpon>frmKharid.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmListBemeh.resx">
       <DependentUpon>frmListBemeh.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmListDaroo.resx">
       <DependentUpon>frmListDaroo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListFroosh.resx">
+      <DependentUpon>frmListFroosh.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmListGrooh.resx">
       <DependentUpon>frmListGrooh.cs</DependentUpon>
@@ -206,14 +260,23 @@
     <EmbeddedResource Include="frmListHesab.resx">
       <DependentUpon>frmListHesab.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmListKharid.resx">
+      <DependentUpon>frmListKharid.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmListPersenel.resx">
       <DependentUpon>frmListPersenel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListSandoog.resx">
+      <DependentUpon>frmListSandoog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmPersenel.resx">
       <DependentUpon>frmPersenel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSandoog.resx">
+      <DependentUpon>frmSandoog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmUser.resx">
       <DependentUpon>frmUser.cs</DependentUpon>
