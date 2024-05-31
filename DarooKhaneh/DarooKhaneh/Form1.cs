@@ -170,5 +170,20 @@ namespace DarooKhaneh
         {
             new frmListCompany().ShowDialog();
         }
+
+        private void buttonItem20_Click(object sender, EventArgs e)
+        {
+            new frmListCheckD().ShowDialog();
+        }
+
+        private void buttonItem21_Click(object sender, EventArgs e)
+        {
+            new frmCheckP().ShowDialog();
+        }
+
+        private void buttonItem22_Click(object sender, EventArgs e)
+        {
+            new frmListCheckP().ShowDialog();
+        }
     }
 }

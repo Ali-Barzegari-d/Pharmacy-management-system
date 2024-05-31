@@ -92,7 +92,7 @@ namespace DarooKhaneh
 
         private void btnList_Click(object sender, EventArgs e)
         {
-            //new frmListCheckD().ShowDialog();
+           new frmListCheckD().ShowDialog();
         }
 
         private void btnS_Click(object sender, EventArgs e)

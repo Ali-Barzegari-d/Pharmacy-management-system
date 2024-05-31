@@ -197,11 +197,11 @@ namespace DarooKhaneh
 
         private void btnCheckP_Click(object sender, EventArgs e)
         {
-            /*frmCheckP frm = new frmCheckP();
+            frmCheckP frm = new frmCheckP();
             frm.txtTozih.Text = "پرداخت مبلغ فاکتور خرید به صورت چک به شماره فاکتور" + txtIdFactor.Text;
             frm.txtNameM.Text = txtNameM.Text;
             frm.txtMablagh.Text = txtJameKol.Text;
-            frm.ShowDialog();*/
+            frm.ShowDialog();
         }
 
         private void btnNagd_Click(object sender, EventArgs e)

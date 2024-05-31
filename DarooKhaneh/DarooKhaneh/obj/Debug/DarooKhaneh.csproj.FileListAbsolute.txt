@@ -55,3 +55,6 @@ E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.frmFroosh.resources
 E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.frmListFroosh.resources
 E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.frmLModir.resources
 E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.frmListCompany.resources
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.frmListCheckD.resources
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.frmCheckP.resources
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.frmListCheckP.resources
