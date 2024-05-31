@@ -25,7 +25,7 @@ namespace DarooKhaneh
             {
                 cmd.Parameters.Clear();
                 cmd.Connection = con;
-                cmd.CommandText = "Insert into Sandoog(Ids,NameS,Mablagh,Tozih)values(@a,@b,@c,@d)";
+                cmd.CommandText = "Insert into Sandoog(id,NameS,Mablagh,Tozih)values(@a,@b,@c,@d)";
                 cmd.Parameters.AddWithValue("@a", txtCode.Text);
                 cmd.Parameters.AddWithValue("@b", txtName.Text);
                 cmd.Parameters.AddWithValue("@c", txtMablagh.Text);
@@ -52,7 +52,7 @@ namespace DarooKhaneh
             {
                 cmd.Parameters.Clear();
                 cmd.Connection = con;
-                cmd.CommandText = "Delete from Sandoog where idS=" + txtCode.Text;
+                cmd.CommandText = "Delete from Sandoog where id=" + txtCode.Text;
                 con.Open();
                 cmd.ExecuteNonQuery();
                 con.Close();
@@ -70,7 +70,7 @@ namespace DarooKhaneh
             {
                 cmd.Parameters.Clear();
                 cmd.Connection = con;
-                cmd.CommandText = "Update Sandoog set Ids='" + txtCode.Text + "',NameS='" + txtName.Text + "',Mablagh='" + txtMablagh.Text + "',Tozih='" + txtTozih.Text + "' where ids=" + txtCode.Text;
+                cmd.CommandText = "Update Sandoog set id='" + txtCode.Text + "',NameS='" + txtName.Text + "',Mablagh='" + txtMablagh.Text + "',Tozih='" + txtTozih.Text + "' where ids=" + txtCode.Text;
                 con.Open();
                 cmd.ExecuteNonQuery();
                 con.Close();
@@ -89,10 +89,11 @@ namespace DarooKhaneh
 
         private void btnS_Click(object sender, EventArgs e)
         {
+            con.Close();
             SqlDataReader dr;
             cmd.Parameters.Clear();
             cmd.Connection = con;
-            cmd.CommandText = "select * from Sandoog where IdS=@N";
+            cmd.CommandText = "select * from Sandoog where id=@N";
             cmd.Parameters.AddWithValue("@N", txtCode.Text);
             con.Open();
             dr = cmd.ExecuteReader();

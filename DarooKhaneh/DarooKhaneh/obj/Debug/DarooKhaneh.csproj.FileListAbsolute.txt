@@ -31,11 +31,6 @@ E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.frmListGrooh.resour
 E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\bin\Debug\DarooKhaneh.exe.config
 E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\bin\Debug\Microsoft.SqlServer.ManagedConnections.dll
 E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\bin\Debug\Stimulsoft.Report.dll
-E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\bin\Debug\Stimulsoft.Base.dll
-E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\bin\Debug\Stimulsoft.Data.dll
-E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\bin\Debug\Stimulsoft.Report.Win.dll
-E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\bin\Debug\Stimulsoft.Controls.Win.dll
-E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\bin\Debug\Stimulsoft.Controls.dll
 E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.frmDaroo.resources
 E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.frmListDaroo.resources
 E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.frmKambod.resources
@@ -58,3 +53,7 @@ E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.frmListCompany.reso
 E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.frmListCheckD.resources
 E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.frmCheckP.resources
 E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.frmListCheckP.resources
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\bin\Debug\Stimulsoft.Report.Win.dll
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\bin\Debug\Stimulsoft.Base.dll
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\bin\Debug\Stimulsoft.Controls.Win.dll
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\bin\Debug\Stimulsoft.Controls.dll
