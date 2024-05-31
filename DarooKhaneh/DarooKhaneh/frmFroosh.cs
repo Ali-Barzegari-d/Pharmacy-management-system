@@ -240,7 +240,7 @@ namespace DarooKhaneh
             string str;
             int str1;
             con.Open();
-            SqlCommand sqlcmd = new SqlCommand("select Mablagh from hesab where ShH='" + txtShH.Text + "'", con);
+            SqlCommand sqlcmd = new SqlCommand("select Mablagh from hesab where ShH=" + txtShH.Text , con);
             str = Convert.ToString((int)sqlcmd.ExecuteScalar());//مبلغ حساب
             str1 = Convert.ToInt32(txtJameKol.Text);//مبلغ فاکتور
             int sum = Int32.Parse(str) + str1;//مبلغ نهایی حساب

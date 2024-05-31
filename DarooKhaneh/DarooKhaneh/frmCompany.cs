@@ -32,7 +32,7 @@ namespace DarooKhaneh
             {
                 cmd.Parameters.Clear();
                 cmd.Connection = con;
-                cmd.CommandText = "Insert into Company(NameC,Tel,Address,Tozih)values(@a,@b,@c,@d)";
+                cmd.CommandText = "Insert into Company(Name,Tel,Address,Tozih)values(@a,@b,@c,@d)";
                 cmd.Parameters.AddWithValue("@a", txtName.Text);
                 cmd.Parameters.AddWithValue("@b", txtTel.Text);
                 cmd.Parameters.AddWithValue("@c", txtAddress.Text);
@@ -74,7 +74,7 @@ namespace DarooKhaneh
             {
                 cmd.Parameters.Clear();
                 cmd.Connection = con;
-                cmd.CommandText = "Update Company set NameC='" + txtName.Text + "',Tel='" + txtTel.Text + "',Address='" + txtAddress.Text + "',Tozih='" + txtTozih.Text + "' where id=" + txtCode.Text;
+                cmd.CommandText = "Update Company set Name='" + txtName.Text + "',Tel='" + txtTel.Text + "',Address='" + txtAddress.Text + "',Tozih='" + txtTozih.Text + "' where id=" + txtCode.Text;
                 con.Open();
                 cmd.ExecuteNonQuery();
                 con.Close();
@@ -90,11 +90,12 @@ namespace DarooKhaneh
 
         private void btnList_Click(object sender, EventArgs e)
         {
-            //new frmListCompany().ShowDialog();
+            new frmListCompany().ShowDialog();
         }
 
         private void btnS_Click(object sender, EventArgs e)
         {
+            con.Close();
             SqlDataReader dr;
             cmd.Parameters.Clear();
             cmd.Connection = con;
@@ -105,7 +106,7 @@ namespace DarooKhaneh
             if (dr.Read())
             {
                 txtCode.Text = dr["id"].ToString();
-                txtName.Text = dr["NameC"].ToString();
+                txtName.Text = dr["Name"].ToString();
                 txtTel.Text = dr["Tel"].ToString();
                 txtAddress.Text = dr["Address"].ToString();
                 txtTozih.Text = dr["Tozih"].ToString();

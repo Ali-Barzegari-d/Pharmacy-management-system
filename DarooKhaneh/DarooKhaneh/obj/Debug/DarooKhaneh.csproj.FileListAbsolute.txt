@@ -53,3 +53,5 @@ E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.frmKharid.resources
 E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.frmListKharid.resources
 E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.frmFroosh.resources
 E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.frmListFroosh.resources
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.frmLModir.resources
+E:\DarooKhaneh\DarooKhaneh\DarooKhaneh\obj\Debug\DarooKhaneh.frmListCompany.resources

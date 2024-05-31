@@ -93,7 +93,7 @@ namespace DarooKhaneh
 
         private void ribbonTabItem1_Click(object sender, EventArgs e)
         {
-
+            //new frmLModir().ShowDialog();
         }
 
         private void ribbonTabItem2_Click(object sender, EventArgs e)
@@ -154,6 +154,21 @@ namespace DarooKhaneh
         private void buttonItem16_Click(object sender, EventArgs e)
         {
             new frmListFroosh().ShowDialog();
+        }
+
+        private void buttonItem17_Click(object sender, EventArgs e)
+        {
+            new frmCheckD().ShowDialog();
+        }
+
+        private void buttonItem18_Click(object sender, EventArgs e)
+        {
+            new frmCompany().ShowDialog();
+        }
+
+        private void buttonItem19_Click(object sender, EventArgs e)
+        {
+            new frmListCompany().ShowDialog();
         }
     }
 }

@@ -30,7 +30,7 @@ namespace DarooKhaneh
             {
                 cmd.Parameters.Clear();
                 cmd.Connection = con;
-                cmd.CommandText = "insert into CheckD1(idS,ShH,NameH,NameM,Mablagh,Tarikh,SarResid,Tozih)values(@a,@b,@c,@d,@e,@f,@g,@h,@i)";
+                cmd.CommandText = "insert into CheckD3(idS,ShH,NameH,NameM,Mablagh,Tarikh,SarResid,Vaziyat,Tozih)values(@a,@b,@c,@d,@e,@f,@g,@h,@i)";
                 cmd.Parameters.AddWithValue("@a", txtCode.Text);
                 cmd.Parameters.AddWithValue("@b", txtShH.Text);
                 cmd.Parameters.AddWithValue("@c", txtNameH.Text);
@@ -59,7 +59,7 @@ namespace DarooKhaneh
             {
                 cmd.Parameters.Clear();
                 cmd.Connection = con;
-                cmd.CommandText = "Delete from CheckD1 where ids=" + txtCode.Text;
+                cmd.CommandText = "Delete from CheckD3 where ids=" + txtCode.Text;
                 con.Open();
                 cmd.ExecuteNonQuery();
                 con.Close();
@@ -77,7 +77,7 @@ namespace DarooKhaneh
             {
                 cmd.Parameters.Clear();
                 cmd.Connection = con;
-                cmd.CommandText = "Update CheckD1 set ids='" + txtCode.Text + "',ShH='" + txtShH.Text + "',NameH='" + txtNameH.Text + "',NameM='" + txtNameM.Text + "',Mablagh='" + txtMablagh.Text + "',Tarikh='" + mskTarikh.Text + "',SarResid='" + mskSarResid.Text + "',Vaziyat='" + cmbVaziyat.Text + "',Tozih='" + txtTozih.Text + "' where ids=" + txtCode.Text;
+                cmd.CommandText = "Update CheckD3 set ids='" + txtCode.Text + "',ShH='" + txtShH.Text + "',NameH='" + txtNameH.Text + "',NameM='" + txtNameM.Text + "',Mablagh='" + txtMablagh.Text + "',Tarikh='" + mskTarikh.Text + "',SarResid='" + mskSarResid.Text + "',Vaziyat='" + cmbVaziyat.Text + "',Tozih='" + txtTozih.Text + "' where ids=" + txtCode.Text;
                 con.Open();
                 cmd.ExecuteNonQuery();
                 con.Close();
@@ -100,7 +100,7 @@ namespace DarooKhaneh
             SqlDataReader dr;
             cmd.Parameters.Clear();
             cmd.Connection = con;
-            cmd.CommandText = "select * from CheckD1 where IdS="+txtCode.Text;
+            cmd.CommandText = "select * from CheckD3 where IdS="+txtCode.Text;
             //cmd.Parameters.AddWithValue("@N", txtCode.Text);
             con.Open();
             dr = cmd.ExecuteReader();

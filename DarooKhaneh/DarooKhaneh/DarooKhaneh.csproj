@@ -144,6 +144,12 @@
     <Compile Include="frmListBemeh.Designer.cs">
       <DependentUpon>frmListBemeh.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmListCompany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListCompany.Designer.cs">
+      <DependentUpon>frmListCompany.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmListDaroo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -185,6 +191,12 @@
     </Compile>
     <Compile Include="frmListSandoog.Designer.cs">
       <DependentUpon>frmListSandoog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLModir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLModir.Designer.cs">
+      <DependentUpon>frmLModir.cs</DependentUpon>
     </Compile>
     <Compile Include="frmLogin.cs">
       <SubType>Form</SubType>
@@ -248,6 +260,9 @@
     <EmbeddedResource Include="frmListBemeh.resx">
       <DependentUpon>frmListBemeh.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmListCompany.resx">
+      <DependentUpon>frmListCompany.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmListDaroo.resx">
       <DependentUpon>frmListDaroo.cs</DependentUpon>
     </EmbeddedResource>
@@ -268,6 +283,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmListSandoog.resx">
       <DependentUpon>frmListSandoog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLModir.resx">
+      <DependentUpon>frmLModir.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
